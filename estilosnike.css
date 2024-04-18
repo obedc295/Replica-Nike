@@ -1,0 +1,147 @@
+header {
+    padding: 0;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 70px;
+  }
+  
+  ul {
+    position: relative;
+    width: 60%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  li a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #444;
+  }
+  
+  .element {
+    width: 20%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .element .buscador {
+    width: 70%;
+    height: 40px;
+    position: relative;
+    border-radius: 20px;
+    background-color: #f3f3f3;
+    box-sizing: border-box;
+    padding: 4px 10px; 
+    color: #aaa;
+  }
+  
+  .bi {
+    color: #000;
+    font-size: 20px;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  footer {
+    height: 50px;
+    padding: 50px 0;
+    color: #000;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+
+
+  .carousel {
+    overflow: hidden;
+    width: 1000px; /* Ajusta el ancho según tus necesidades */
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .slide {
+    display: none;
+    width: 100%;
+    animation: slideAnimation 3s infinite;
+  }
+  
+  .active {
+    display: block;
+  }
+  
+  @keyframes slideAnimation {
+    0% {
+      opacity: 0;
+    }
+    25% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  img {
+    width: 100%;
+  }
+
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .fa-search {
+    font-size: 16px;
+  }
+
+
+  .slide {
+    width: 85%;
+  
+    object-fit: cover; /* O ajusta este valor según sea necesario */
+  }
+  
+
+
+  
+  
+  
+  
